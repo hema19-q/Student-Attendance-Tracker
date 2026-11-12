@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f5f9;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #234;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+input, button {
+  padding: 10px;
+  margin: 8px;
+}
+
+button {
+  cursor: pointer;
+  background: #1769aa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+  background: white;
+  padding: 12px;
+  margin: 10px auto;
+  max-width: 400px;
+  border-radius: 5px;
+}
